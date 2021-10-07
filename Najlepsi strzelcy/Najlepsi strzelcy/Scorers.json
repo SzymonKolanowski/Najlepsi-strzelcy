@@ -1,0 +1,148 @@
+{
+  "Scorers": [
+    {
+      "ID": 1,
+      "NameAndSurname": "Robert Lewandowski",
+      "YearOfBirth": 1988,
+      "Nation": "Poland",
+      "Goals": {
+        "ChampionsLeague": 77,
+        "League": 316,
+        "National": 72
+      },
+      "TotalGoals": 465
+    },
+    {
+      "ID": 2,
+      "NameAndSurname": "Lionell Messi",
+      "YearOfBirth": 1987,
+      "Nation": "Argentina",
+      "Goals": {
+        "ChampionsLeague": 121,
+        "League": 474,
+        "National": 79
+      },
+      "TotalGoals": 674
+    },
+    {
+      "ID": 3,
+      "NameAndSurname": "Cristiano Ronaldo",
+      "YearOfBirth": 1985,
+      "Nation": "Portugal",
+      "Goals": {
+        "ChampionsLeague": 136,
+        "League": 482,
+        "National": 111
+      },
+      "TotalGoals": 729
+    },
+    {
+      "ID": 4,
+      "NameAndSurname": "Ferenc Puskas",
+      "YearOfBirth": 1926,
+      "Nation": "Hungary",
+      "Goals": {
+        "ChampionsLeague": 36,
+        "League": 513,
+        "National": 84
+      },
+      "TotalGoals": 633
+    },
+    {
+      "ID": 5,
+      "NameAndSurname": "Alli Dei",
+      "YearOfBirth": 1969,
+      "Nation": "Iran",
+      "Goals": {
+        "ChampionsLeague": 3,
+        "League": 112,
+        "National": 111
+      },
+      "TotalGoals": 226
+    },
+    {
+      "ID": 6,
+      "NameAndSurname": "Josef Bican",
+      "YearOfBirth": 1913,
+      "Nation": "Austria",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 537,
+        "National": 26
+      },
+      "TotalGoals": 563
+    },
+    {
+      "ID": 7,
+      "NameAndSurname": "Imre Schlosser",
+      "YearOfBirth": 1889,
+      "Nation": "Hungary",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 417,
+        "National": 59
+      },
+      "TotalGoals": 476
+    },
+    {
+      "ID": 8,
+      "NameAndSurname": "Guyla Zaellersegi",
+      "YearOfBirth": 1915,
+      "Nation": "Hungary",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 416,
+        "National": 32
+      },
+      "TotalGoals": 448
+    },
+    {
+      "ID": 9,
+      "NameAndSurname": "JimmyMcGrory",
+      "YearOfBirth": 1904,
+      "Nation": "Scottland",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 408,
+        "National": 6
+      },
+      "TotalGoals": 414
+    },
+    {
+      "ID": 10,
+      "NameAndSurname": "Gerg Mueller",
+      "YearOfBirth": 1945,
+      "Nation": "Germany",
+      "Goals": {
+        "ChampionsLeague": 34,
+        "League": 403,
+        "National": 69
+      },
+      "TotalGoals": 506
+    },
+    {
+      "ID": 11,
+      "NameAndSurname": "Hugo Sanchez",
+      "YearOfBirth": 1958,
+      "Nation": "Mexico",
+      "Goals": {
+        "ChampionsLeague": 17,
+        "League": 394,
+        "National": 29
+      },
+      "TotalGoals": 440
+    },
+    {
+      "ID": 12,
+      "NameAndSurname": "Zlatan Ibrahimović",
+      "YearOfBirth": 1981,
+      "Nation": "Sweden",
+      "Goals": {
+        "ChampionsLeague": 48,
+        "League": 385,
+        "National": 62
+      },
+      "TotalGoals": 495
+    }
+  ]
+}
