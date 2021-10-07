@@ -164,6 +164,7 @@ namespace Najlepsi_strzelcy
 			var scorers = database.SortScorersDescByNationalsGoals();
 			WriteJson(scorers);
 			// zmiana
+			// zmiana2
 		}
 	}
 }
