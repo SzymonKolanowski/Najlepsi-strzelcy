@@ -52,6 +52,15 @@ namespace Najlepsi_strzelcy
 					case "SortScorersDescByNationalsGoals":
 						SortScorersDescByNationalsGoalsals();
 						break;
+					case "Leaque500Goals":
+						Leaque500Goals();
+						break;
+					case "CHL50Goals":
+						CHL50Goals();
+						break;
+					case "National50Goals":
+						National50Goals();
+						break;
 				}
 			} while (command != "Exit");
 			Console.WriteLine("Exiting program");
@@ -143,8 +152,22 @@ namespace Najlepsi_strzelcy
 
 		private static void SortScorersDescByTotalGoals()
 		{
-			var scorer = database.SortScorersDescByTotalGoals();
-			WriteJson(scorer);
+			
+			//tu chcę zrobić by się wyświetlało tylko imię i nazwisko gracza i suma goli
+			var scorers = database.SortScorersDescByTotalGoals();
+
+			foreach (var scorer in database.ScorersList())
+			{
+				if (scorer.ID > 0)
+				{
+					Console.WriteLine("Name and Surname");
+					Console.WriteLine(scorer.NameAndSurname);
+					Console.WriteLine("Total Goals");
+					Console.WriteLine(scorer.TotalGoals);
+					Console.WriteLine();
+					WriteJson(scorers);
+				}
+			}
 		}
 
 		private static void SortScorersDescByChlGoals()
@@ -162,9 +185,52 @@ namespace Najlepsi_strzelcy
 		private static void SortScorersDescByNationalsGoalsals()
 		{
 			var scorers = database.SortScorersDescByNationalsGoals();
-			WriteJson(scorers);
-			// zmiana
-			// zmiana2
+			WriteJson(scorers);			
+		}
+
+		private static void Leaque500Goals()
+		{
+			foreach (var scorer in database.ScorersList())
+			{
+				if (scorer.Goals[CompetitionType.League] > 500)
+				{
+					Console.WriteLine("Name and Surname");
+					Console.WriteLine(scorer.NameAndSurname);
+					Console.WriteLine("Leaque Goals");
+					Console.WriteLine(scorer.Goals[CompetitionType.League]);
+					Console.WriteLine();
+				}
+			}
+		}
+
+		private static void CHL50Goals()
+		{
+			foreach (var scorer in database.ScorersList())
+			{
+				if (scorer.Goals[CompetitionType.ChampionsLeague] > 50)
+				{
+					Console.WriteLine("Name and Surname");
+					Console.WriteLine(scorer.NameAndSurname);
+					Console.WriteLine("Champions Leaque Goals");
+					Console.WriteLine(scorer.Goals[CompetitionType.ChampionsLeague]);
+					Console.WriteLine();
+				}
+			}
+		}
+
+		private static void National50Goals()
+		{
+			foreach (var scorer in database.ScorersList())
+			{
+				if (scorer.Goals[CompetitionType.National] > 50)
+				{
+					Console.WriteLine("Name and Surname");
+					Console.WriteLine(scorer.NameAndSurname);
+					Console.WriteLine("National Goals");
+					Console.WriteLine(scorer.Goals[CompetitionType.National]);
+					Console.WriteLine();
+				}
+			}
 		}
 	}
 }
