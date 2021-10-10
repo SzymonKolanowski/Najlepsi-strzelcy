@@ -13,7 +13,6 @@ namespace Najlepsi_strzelcy
 		public int YearOfBirth { get; set; }
 		public string Nation { get; set; }
 
-
 		public Dictionary<CompetitionType, int> Goals { get; }
 
 		public Scorer()

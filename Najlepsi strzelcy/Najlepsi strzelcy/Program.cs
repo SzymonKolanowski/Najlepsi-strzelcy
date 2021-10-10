@@ -23,6 +23,10 @@ namespace Najlepsi_strzelcy
 				Console.WriteLine("If you want see the best scorers in Champions Leaque competition write 'SortScorersDescByChlGoals'");
 				Console.WriteLine("If you want see the best scorers in Leaques competition write 'SortScorersDescByLeaquesGoals'");
 				Console.WriteLine("If you want see the best scorers in National competition write 'SortScorersDescByNationalsGoals'");
+				Console.WriteLine("If you want see scorers which have min. 50 goals in Champions Leaque write 'CHL50Goals'");
+				Console.WriteLine("If you want see scorers which have min. 50 goals in National representation write 'National50Goals'");
+				Console.WriteLine("If you want see scorers which have min. 500 goals in Leaques write 'Leaque500Goals'");
+				Console.WriteLine("If you want add next goals to some scorer write 'AddNextGoals'");
 				Console.WriteLine("If you want leave program write 'Exit'");
 				command = Console.ReadLine();
 
@@ -60,6 +64,9 @@ namespace Najlepsi_strzelcy
 						break;
 					case "National50Goals":
 						National50Goals();
+						break;
+					case "AddNextGoals":
+						AddNextGoals();
 						break;
 				}
 			} while (command != "Exit");
@@ -232,5 +239,40 @@ namespace Najlepsi_strzelcy
 				}
 			}
 		}
+
+		private static void AddNextGoals()
+		{
+			Console.WriteLine("Choose id of scorer");
+			var scorerid = GetIntParameter();
+
+			var scorer = database.GetScorerById(scorerid);
+			//scorer.Goals[CompetitionType.ChampionsLeague] = new Dictionary<CompetitionType , int>();
+
+			Console.WriteLine("Next Goals in Champions Leaque");
+			var championsleaque = GetIntParameter();
+
+			Console.WriteLine("Next goals in Leaques");
+			var leaques = GetIntParameter();
+
+			Console.WriteLine("Next goals in National Representation");
+			var nationals = GetIntParameter();
+
+			scorer.Goals[CompetitionType.ChampionsLeague] = scorer.Goals[CompetitionType.ChampionsLeague] + championsleaque;
+			Console.WriteLine(scorer.Goals[CompetitionType.ChampionsLeague]);
+
+			scorer.Goals[CompetitionType.League] = scorer.Goals[CompetitionType.League] + leaques;
+			Console.WriteLine(scorer.Goals[CompetitionType.League]);
+
+			scorer.Goals[CompetitionType.National] = scorer.Goals[CompetitionType.National] + nationals;
+			Console.WriteLine(scorer.Goals[CompetitionType.National]);
+
+			
+
+			
+
+			
+
+		}
+
 	}
 }
