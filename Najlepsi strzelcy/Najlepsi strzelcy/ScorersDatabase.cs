@@ -35,6 +35,13 @@ namespace Najlepsi_strzelcy
 			allLists.Scorers.Add(scorer);
 		}
 
+		public void AddNextGoals(Scorer scorer,int championsleaque,int leaque,int national)
+		{
+			scorer.Goals[CompetitionType.ChampionsLeague] = scorer.Goals[CompetitionType.ChampionsLeague] + championsleaque;
+			scorer.Goals[CompetitionType.League] = scorer.Goals[CompetitionType.League] + leaque;
+			scorer.Goals[CompetitionType.National] = scorer.Goals[CompetitionType.National] + national;
+		}
+
 		public void Save()
 		{
 			var json = JsonConvert.SerializeObject(allLists, Formatting.Indented);

@@ -20,9 +20,9 @@
       "Goals": {
         "ChampionsLeague": 121,
         "League": 474,
-        "National": 79
+        "National": 80
       },
-      "TotalGoals": 674
+      "TotalGoals": 675
     },
     {
       "ID": 3,
@@ -32,9 +32,9 @@
       "Goals": {
         "ChampionsLeague": 136,
         "League": 482,
-        "National": 111
+        "National": 112
       },
-      "TotalGoals": 729
+      "TotalGoals": 730
     },
     {
       "ID": 4,
@@ -143,6 +143,30 @@
         "National": 62
       },
       "TotalGoals": 495
+    },
+    {
+      "ID": 13,
+      "NameAndSurname": "Mokhtar Dahari",
+      "YearOfBirth": 1953,
+      "Nation": "Malaysia",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 177,
+        "National": 79
+      },
+      "TotalGoals": 256
+    },
+    {
+      "ID": 14,
+      "NameAndSurname": "Godfrey Chitalu",
+      "YearOfBirth": 1947,
+      "Nation": "Zambia",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 490,
+        "National": 79
+      },
+      "TotalGoals": 569
     }
   ]
 }

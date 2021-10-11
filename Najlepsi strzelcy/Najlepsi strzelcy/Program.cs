@@ -256,21 +256,8 @@ namespace Najlepsi_strzelcy
 
 			Console.WriteLine("Next goals in National Representation");
 			var nationals = GetIntParameter();
-
-			scorer.Goals[CompetitionType.ChampionsLeague] = scorer.Goals[CompetitionType.ChampionsLeague] + championsleaque;
-			Console.WriteLine(scorer.Goals[CompetitionType.ChampionsLeague]);
-
-			scorer.Goals[CompetitionType.League] = scorer.Goals[CompetitionType.League] + leaques;
-			Console.WriteLine(scorer.Goals[CompetitionType.League]);
-
-			scorer.Goals[CompetitionType.National] = scorer.Goals[CompetitionType.National] + nationals;
-			Console.WriteLine(scorer.Goals[CompetitionType.National]);
-
 			
-
-			
-
-			
+			database.AddNextGoals(scorer,championsleaque,leaques,nationals);			
 
 		}
 
