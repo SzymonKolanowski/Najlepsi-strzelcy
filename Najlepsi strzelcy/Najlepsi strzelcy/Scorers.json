@@ -167,6 +167,66 @@
         "National": 79
       },
       "TotalGoals": 569
+    },
+    {
+      "ID": 15,
+      "NameAndSurname": "Karim Benzema",
+      "YearOfBirth": 1987,
+      "Nation": "France",
+      "Goals": {
+        "ChampionsLeague": 72,
+        "League": 244,
+        "National": 33
+      },
+      "TotalGoals": 349
+    },
+    {
+      "ID": 16,
+      "NameAndSurname": "Raul Gonzales",
+      "YearOfBirth": 1971,
+      "Nation": "Spain",
+      "Goals": {
+        "ChampionsLeague": 71,
+        "League": 267,
+        "National": 44
+      },
+      "TotalGoals": 382
+    },
+    {
+      "ID": 17,
+      "NameAndSurname": "Ruud Van Nisterloy",
+      "YearOfBirth": 1976,
+      "Nation": "Holland",
+      "Goals": {
+        "ChampionsLeague": 56,
+        "League": 232,
+        "National": 35
+      },
+      "TotalGoals": 323
+    },
+    {
+      "ID": 18,
+      "NameAndSurname": "Thierry Henry",
+      "YearOfBirth": 1977,
+      "Nation": "France",
+      "Goals": {
+        "ChampionsLeague": 50,
+        "League": 284,
+        "National": 51
+      },
+      "TotalGoals": 385
+    },
+    {
+      "ID": 19,
+      "NameAndSurname": "Thomas Mueller",
+      "YearOfBirth": 1989,
+      "Nation": "Germany",
+      "Goals": {
+        "ChampionsLeague": 49,
+        "League": 131,
+        "National": 40
+      },
+      "TotalGoals": 220
     }
   ]
 }

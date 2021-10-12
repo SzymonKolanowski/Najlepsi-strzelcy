@@ -159,22 +159,10 @@ namespace Najlepsi_strzelcy
 
 		private static void SortScorersDescByTotalGoals()
 		{
-			
+
 			//tu chcę zrobić by się wyświetlało tylko imię i nazwisko gracza i suma goli
 			var scorers = database.SortScorersDescByTotalGoals();
-
-			foreach (var scorer in database.ScorersList())
-			{
-				if (scorer.ID > 0)
-				{
-					Console.WriteLine("Name and Surname");
-					Console.WriteLine(scorer.NameAndSurname);
-					Console.WriteLine("Total Goals");
-					Console.WriteLine(scorer.TotalGoals);
-					Console.WriteLine();
-					WriteJson(scorers);
-				}
-			}
+			WriteJson(scorers);
 		}
 
 		private static void SortScorersDescByChlGoals()
