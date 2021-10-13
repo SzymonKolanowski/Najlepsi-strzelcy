@@ -12,6 +12,7 @@ namespace Najlepsi_strzelcy
 		private static ScorersDatabase database = new ScorersDatabase();
 		static void Main(string[] args)
 		{
+			
 			string command = string.Empty;
 			do
 			{
@@ -129,7 +130,6 @@ namespace Najlepsi_strzelcy
 			scorer.Goals[CompetitionType.National] = nationals;
 
 			database.AddScorer(scorer);
-
 		}
 
 		private static void RemoveScorer()
@@ -158,10 +158,8 @@ namespace Najlepsi_strzelcy
 		}
 
 		private static void SortScorersDescByTotalGoals()
-		{
-
-			//tu chcę zrobić by się wyświetlało tylko imię i nazwisko gracza i suma goli
-			var scorers = database.SortScorersDescByTotalGoals();
+		{						
+			var scorers = database.SortScorersDescByTotalGoals();			
 			WriteJson(scorers);
 		}
 
@@ -245,9 +243,7 @@ namespace Najlepsi_strzelcy
 			Console.WriteLine("Next goals in National Representation");
 			var nationals = GetIntParameter();
 			
-			database.AddNextGoals(scorer,championsleaque,leaques,nationals);			
-
+			database.AddNextGoals(scorer,championsleaque,leaques,nationals);	
 		}
-
 	}
 }

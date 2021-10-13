@@ -32,9 +32,9 @@
       "Goals": {
         "ChampionsLeague": 136,
         "League": 482,
-        "National": 112
+        "National": 115
       },
-      "TotalGoals": 730
+      "TotalGoals": 733
     },
     {
       "ID": 4,
@@ -227,6 +227,30 @@
         "National": 40
       },
       "TotalGoals": 220
+    },
+    {
+      "ID": 20,
+      "NameAndSurname": "Ali Mabkhout",
+      "YearOfBirth": 1990,
+      "Nation": "United Arab Emirates",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 170,
+        "National": 78
+      },
+      "TotalGoals": 248
+    },
+    {
+      "ID": 21,
+      "NameAndSurname": "Sunil Chhetri",
+      "YearOfBirth": 1984,
+      "Nation": "India",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 135,
+        "National": 77
+      },
+      "TotalGoals": 212
     }
   ]
 }
