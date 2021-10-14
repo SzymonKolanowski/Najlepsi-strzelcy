@@ -158,9 +158,10 @@ namespace Najlepsi_strzelcy
 		}
 
 		private static void SortScorersDescByTotalGoals()
-		{						
-			var scorers = database.SortScorersDescByTotalGoals();			
+		{
+			var scorers = database.SortScorersDescByTotalGoals();
 			WriteJson(scorers);
+
 		}
 
 		private static void SortScorersDescByChlGoals()
@@ -232,8 +233,7 @@ namespace Najlepsi_strzelcy
 			var scorerid = GetIntParameter();
 
 			var scorer = database.GetScorerById(scorerid);
-			//scorer.Goals[CompetitionType.ChampionsLeague] = new Dictionary<CompetitionType , int>();
-
+			
 			Console.WriteLine("Next Goals in Champions Leaque");
 			var championsleaque = GetIntParameter();
 

@@ -64,8 +64,7 @@ namespace Najlepsi_strzelcy
 
 		public IEnumerable<Scorer> SortScorersDescByTotalGoals()
 		{
-			return allLists.Scorers.OrderByDescending(s => s.TotalGoals);
-			
+			return allLists.Scorers.OrderByDescending(s => s.TotalGoals);			
 		}
 
 		public IEnumerable<Scorer> SortScorersDescByChlGoals()
@@ -82,7 +81,5 @@ namespace Najlepsi_strzelcy
 		{
 			return allLists.Scorers.OrderByDescending(s => s.Goals[CompetitionType.National]);
 		}
-
-
 	}
 }

@@ -251,6 +251,54 @@
         "National": 77
       },
       "TotalGoals": 212
+    },
+    {
+      "ID": 22,
+      "NameAndSurname": "Ferenc Susza",
+      "YearOfBirth": 1923,
+      "Nation": "Hungary",
+      "Goals": {
+        "ChampionsLeague": 2,
+        "League": 393,
+        "National": 18
+      },
+      "TotalGoals": 413
+    },
+    {
+      "ID": 23,
+      "NameAndSurname": "Carlos Bianchi",
+      "YearOfBirth": 1949,
+      "Nation": "Argentina",
+      "Goals": {
+        "ChampionsLeague": 3,
+        "League": 385,
+        "National": 8
+      },
+      "TotalGoals": 396
+    },
+    {
+      "ID": 24,
+      "NameAndSurname": "Alfredo Di Stefano",
+      "YearOfBirth": 1926,
+      "Nation": "Argentina, Colombia , Spain",
+      "Goals": {
+        "ChampionsLeague": 49,
+        "League": 376,
+        "National": 29
+      },
+      "TotalGoals": 454
+    },
+    {
+      "ID": 25,
+      "NameAndSurname": "Gunnar Nordhalm",
+      "YearOfBirth": 1921,
+      "Nation": "Sweeden",
+      "Goals": {
+        "ChampionsLeague": 4,
+        "League": 376,
+        "National": 43
+      },
+      "TotalGoals": 423
     }
   ]
 }
