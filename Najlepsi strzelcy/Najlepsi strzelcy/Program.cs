@@ -145,7 +145,6 @@ namespace Najlepsi_strzelcy
 			var idscorer = GetIntParameter();
 			Scorer scorer = database.GetScorerById(idscorer);
 
-
 			var scorerViewModel = new
 			{
 				scorer.NameAndSurname,
@@ -161,7 +160,6 @@ namespace Najlepsi_strzelcy
 		{
 			var scorers = database.SortScorersDescByTotalGoals();
 			WriteJson(scorers);
-
 		}
 
 		private static void SortScorersDescByChlGoals()
@@ -188,11 +186,14 @@ namespace Najlepsi_strzelcy
 			{
 				if (scorer.Goals[CompetitionType.League] > 500)
 				{
-					Console.WriteLine("Name and Surname");
-					Console.WriteLine(scorer.NameAndSurname);
-					Console.WriteLine("Leaque Goals");
-					Console.WriteLine(scorer.Goals[CompetitionType.League]);
-					Console.WriteLine();
+					
+					{
+						Console.WriteLine("Name and Surname");
+						Console.WriteLine(scorer.NameAndSurname);
+						Console.WriteLine("Leaque Goals");
+						Console.WriteLine(scorer.Goals[CompetitionType.League]);
+						Console.WriteLine();
+					}				
 				}
 			}
 		}
@@ -201,13 +202,13 @@ namespace Najlepsi_strzelcy
 		{
 			foreach (var scorer in database.ScorersList())
 			{
-				if (scorer.Goals[CompetitionType.ChampionsLeague] > 50)
-				{
+				if (scorer.Goals[CompetitionType.ChampionsLeague] > 50 )
+				{					
 					Console.WriteLine("Name and Surname");
 					Console.WriteLine(scorer.NameAndSurname);
 					Console.WriteLine("Champions Leaque Goals");
 					Console.WriteLine(scorer.Goals[CompetitionType.ChampionsLeague]);
-					Console.WriteLine();
+					Console.WriteLine();					
 				}
 			}
 		}
