@@ -52,10 +52,10 @@ namespace Najlepsi_strzelcy
 						SortScorersDescByChlGoals();
 						break;
 					case "SortScorersDescByLeaquesGoals":
-						SortScorersDescByLeaquesGoalsals();
+						SortScorersDescByLeaquesGoals();
 						break;
 					case "SortScorersDescByNationalsGoals":
-						SortScorersDescByNationalsGoalsals();
+						SortScorersDescByNationalsGoals();
 						break;
 					case "Leaque500Goals":
 						Leaque500Goals();
@@ -159,25 +159,29 @@ namespace Najlepsi_strzelcy
 		private static void SortScorersDescByTotalGoals()
 		{
 			var scorers = database.SortScorersDescByTotalGoals();
-			WriteJson(scorers);
+			var query = scorers.Select(scorer => new { NameandSurname = scorer.NameAndSurname, YearOFBirth = scorer.YearOfBirth, Nation = scorer.Nation , TotalGoals = scorer.TotalGoals });
+			WriteJson(query);
 		}
 
 		private static void SortScorersDescByChlGoals()
 		{
 			var scorers = database.SortScorersDescByChlGoals();
-			WriteJson(scorers);
+			var query = scorers.Select(scorer => new { NameandSurname = scorer.NameAndSurname, YearOFBirth = scorer.YearOfBirth, Nation = scorer.Nation , CHLGoals = scorer.Goals[CompetitionType.ChampionsLeague] });
+			WriteJson(query);
 		}
 
-		private static void SortScorersDescByLeaquesGoalsals()
+		private static void SortScorersDescByLeaquesGoals()
 		{
 			var scorers = database.SortScorersDescByLeaquesGoals();
-			WriteJson(scorers);
+			var query = scorers.Select(scorer => new { NameandSurname = scorer.NameAndSurname, YearOFBirth = scorer.YearOfBirth, Nation = scorer.Nation , LeaqueGoals = scorer.Goals[CompetitionType.League] });
+			WriteJson(query);
 		}
 
-		private static void SortScorersDescByNationalsGoalsals()
+		private static void SortScorersDescByNationalsGoals()
 		{
 			var scorers = database.SortScorersDescByNationalsGoals();
-			WriteJson(scorers);			
+			var query = scorers.Select(scorer => new { NameandSurname = scorer.NameAndSurname,YearOFBirth = scorer.YearOfBirth , Nation = scorer.Nation , NationalGoals = scorer.Goals[CompetitionType.National]});
+			WriteJson(query);			
 		}
 
 		private static void Leaque500Goals()

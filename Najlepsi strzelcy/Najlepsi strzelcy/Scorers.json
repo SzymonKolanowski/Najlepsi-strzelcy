@@ -223,10 +223,10 @@
       "Nation": "Germany",
       "Goals": {
         "ChampionsLeague": 49,
-        "League": 131,
+        "League": 132,
         "National": 40
       },
-      "TotalGoals": 220
+      "TotalGoals": 221
     },
     {
       "ID": 20,
@@ -248,9 +248,9 @@
       "Goals": {
         "ChampionsLeague": 0,
         "League": 135,
-        "National": 77
+        "National": 80
       },
-      "TotalGoals": 212
+      "TotalGoals": 215
     },
     {
       "ID": 22,
@@ -299,6 +299,114 @@
         "National": 43
       },
       "TotalGoals": 423
+    },
+    {
+      "ID": 26,
+      "NameAndSurname": "SandorKocsis",
+      "YearOfBirth": 1929,
+      "Nation": "Hungary",
+      "Goals": {
+        "ChampionsLeague": 8,
+        "League": 296,
+        "National": 75
+      },
+      "TotalGoals": 379
+    },
+    {
+      "ID": 27,
+      "NameAndSurname": "Kunishige Kamamoto",
+      "YearOfBirth": 1944,
+      "Nation": "Japan",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 202,
+        "National": 75
+      },
+      "TotalGoals": 277
+    },
+    {
+      "ID": 28,
+      "NameAndSurname": "Bashar Abdullah",
+      "YearOfBirth": 1977,
+      "Nation": "Kuwait",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 249,
+        "National": 75
+      },
+      "TotalGoals": 324
+    },
+    {
+      "ID": 29,
+      "NameAndSurname": "Majed Abdullah",
+      "YearOfBirth": 1959,
+      "Nation": "Saudi Arabia",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 189,
+        "National": 72
+      },
+      "TotalGoals": 261
+    },
+    {
+      "ID": 30,
+      "NameAndSurname": "Kiatisuk Senamung",
+      "YearOfBirth": 1973,
+      "Nation": "Thailand",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 221,
+        "National": 71
+      },
+      "TotalGoals": 292
+    },
+    {
+      "ID": 31,
+      "NameAndSurname": "Miroslav Klose",
+      "YearOfBirth": 1978,
+      "Nation": "Germany",
+      "Goals": {
+        "ChampionsLeague": 14,
+        "League": 176,
+        "National": 71
+      },
+      "TotalGoals": 261
+    },
+    {
+      "ID": 32,
+      "NameAndSurname": "Piyapong Pue-On",
+      "YearOfBirth": 1959,
+      "Nation": "Thailand",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 342,
+        "National": 70
+      },
+      "TotalGoals": 412
+    },
+    {
+      "ID": 33,
+      "NameAndSurname": "John Stern",
+      "YearOfBirth": 1976,
+      "Nation": "Trinidad and Tobago",
+      "Goals": {
+        "ChampionsLeague": 0,
+        "League": 55,
+        "National": 70
+      },
+      "TotalGoals": 125
+    },
+    {
+      "ID": 34,
+      "NameAndSurname": "Neymar",
+      "YearOfBirth": 1992,
+      "Nation": "Brazil",
+      "Goals": {
+        "ChampionsLeague": 41,
+        "League": 179,
+        "National": 70
+      },
+      "TotalGoals": 290
     }
   ]
 }
