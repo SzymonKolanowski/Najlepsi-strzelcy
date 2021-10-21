@@ -6,11 +6,11 @@
       "YearOfBirth": 1988,
       "Nation": "Poland",
       "Goals": {
-        "ChampionsLeague": 77,
+        "ChampionsLeague": 78,
         "League": 318,
         "National": 72
       },
-      "TotalGoals": 467
+      "TotalGoals": 468
     },
     {
       "ID": 2,
@@ -18,11 +18,11 @@
       "YearOfBirth": 1987,
       "Nation": "Argentina",
       "Goals": {
-        "ChampionsLeague": 121,
+        "ChampionsLeague": 123,
         "League": 474,
         "National": 80
       },
-      "TotalGoals": 675
+      "TotalGoals": 677
     },
     {
       "ID": 3,
@@ -30,11 +30,11 @@
       "YearOfBirth": 1985,
       "Nation": "Portugal",
       "Goals": {
-        "ChampionsLeague": 136,
+        "ChampionsLeague": 137,
         "League": 482,
         "National": 115
       },
-      "TotalGoals": 733
+      "TotalGoals": 734
     },
     {
       "ID": 4,
@@ -174,11 +174,11 @@
       "YearOfBirth": 1987,
       "Nation": "France",
       "Goals": {
-        "ChampionsLeague": 72,
+        "ChampionsLeague": 73,
         "League": 244,
         "National": 33
       },
-      "TotalGoals": 349
+      "TotalGoals": 350
     },
     {
       "ID": 16,
